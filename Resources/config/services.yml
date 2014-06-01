@@ -1,0 +1,8 @@
+parameters:
+    netgusto.hmvc.class: Netgusto\HMVCBundle\Services\HMVCRequestHandler
+
+services:
+    netgusto.hmvc:
+        class: %netgusto.hmvc.class%
+        arguments:
+            container: @service_container

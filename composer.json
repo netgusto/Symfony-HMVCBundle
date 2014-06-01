@@ -1,0 +1,28 @@
+{
+    "name": "netgusto/hmvc-bundle",
+    "type": "symfony-bundle",
+    "description": "Stupid simple HMVC service for Symfony 2",
+    "keywords": ["symfony", "hmvc"],
+    "homepage": "https://github.com/netgusto/Symfony-HMVCBundle",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Net Gusto",
+          "email": "contact@netgusto.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.4"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": { "Netgusto\\HMVCBundle": "" }
+    },
+    "target-dir": "Netgusto/HMVCBundle",
+    "extra": {
+    }
+}
